@@ -8,7 +8,7 @@
 
 listint_t *pop_top_of_list(listint_t **head)
 {
-	delete_node_at_index(head, 1);
+	return (delete_node_at_index(head, 1));
 }
 
 /**
